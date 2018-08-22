@@ -1,7 +1,7 @@
 {
-  "name": "vidjot",
+  "name": "todo",
   "version": "1.0.0",
-  "description": "App to create video ideas",
+  "description": "App to jot down your todos",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
