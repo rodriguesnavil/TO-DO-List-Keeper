@@ -1,7 +1,7 @@
 if(process.env.NODE_ENV ==='production'){
   
   module.exports = {mongodbURI:
-  'mongodb://rodriguesnavil:Navil@9049248633@ds129762.mlab.com:29762/todo-db'
+  'mongodb://navil:navil@123.mlab.com:29732/todo-prod'
   }
 }else{
   module.exports = {mongodbURI:
