@@ -56,7 +56,6 @@ app.use(passport.session());
 //flash middleware
 app.use(flash());
 
-
 // Global variables
 app.use(function(req, res, next){
   res.locals.success_msg = req.flash('success_msg');
@@ -65,7 +64,6 @@ app.use(function(req, res, next){
   res.locals.user = req.user || null;
   next();
 });
-
 // Index Route
 app.get('/', (req, res) => {
   const title = 'Welcome';
